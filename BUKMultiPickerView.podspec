@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BUKMultiPickerView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A simple multi-row picker"
   s.description  = "A simple customizable multi-row picker"
   s.homepage     = "https://github.com/iException/BUKMultiPickerView.git"
@@ -12,5 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.frameworks   = 'UIKit', 'Foundation'
   s.requires_arc = true
+  s.dependency   'Masonry', '~> 1.0'
+  s.dependency   'BaixingSDK', '~> 1.2.4'
 
 end

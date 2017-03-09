@@ -8,7 +8,6 @@
 
 #import "BXMultiPickerViewDefaultCell.h"
 #import <Masonry/Masonry.h>
-#import "NSObject+BXTypeCheck.h"
 
 
 @interface BXMultiPickerViewDefaultCell ()
