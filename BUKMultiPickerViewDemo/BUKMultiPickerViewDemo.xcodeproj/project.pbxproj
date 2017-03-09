@@ -13,9 +13,6 @@
 		5300A05A1E70F34600120DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5300A0581E70F34600120DCB /* Main.storyboard */; };
 		5300A05C1E70F34600120DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5300A05B1E70F34600120DCB /* Assets.xcassets */; };
 		5300A05F1E70F34600120DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5300A05D1E70F34600120DCB /* LaunchScreen.storyboard */; };
-		5300A0801E70F5B400120DCB /* BXMultiPickerViewDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300A07A1E70F5B400120DCB /* BXMultiPickerViewDefaultCell.m */; };
-		5300A0811E70F5B400120DCB /* BUKMultiPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300A07C1E70F5B400120DCB /* BUKMultiPickerView.m */; };
-		5300A0821E70F5B400120DCB /* BUKMultiPickerTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300A07E1E70F5B400120DCB /* BUKMultiPickerTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +26,6 @@
 		5300A05B1E70F34600120DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5300A05E1E70F34600120DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5300A0601E70F34600120DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5300A07A1E70F5B400120DCB /* BXMultiPickerViewDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BXMultiPickerViewDefaultCell.m; path = Classes/BXMultiPickerViewDefaultCell.m; sourceTree = "<group>"; };
-		5300A07B1E70F5B400120DCB /* BXMultiPickerViewDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BXMultiPickerViewDefaultCell.h; path = Classes/BXMultiPickerViewDefaultCell.h; sourceTree = "<group>"; };
-		5300A07C1E70F5B400120DCB /* BUKMultiPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUKMultiPickerView.m; path = Classes/BUKMultiPickerView.m; sourceTree = "<group>"; };
-		5300A07D1E70F5B400120DCB /* BUKMultiPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUKMultiPickerView.h; path = Classes/BUKMultiPickerView.h; sourceTree = "<group>"; };
-		5300A07E1E70F5B400120DCB /* BUKMultiPickerTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BUKMultiPickerTitleView.m; path = Classes/BUKMultiPickerTitleView.m; sourceTree = "<group>"; };
-		5300A07F1E70F5B400120DCB /* BUKMultiPickerTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BUKMultiPickerTitleView.h; path = Classes/BUKMultiPickerTitleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +58,6 @@
 		5300A04E1E70F34600120DCB /* BUKMultiPickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5300A0791E70F56500120DCB /* New Group */,
-				5300A0661E70F3D300120DCB /* BUKMultiPickerView */,
 				5300A0521E70F34600120DCB /* AppDelegate.h */,
 				5300A0531E70F34600120DCB /* AppDelegate.m */,
 				5300A0551E70F34600120DCB /* ViewController.h */,
@@ -88,26 +77,6 @@
 				5300A0501E70F34600120DCB /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5300A0661E70F3D300120DCB /* BUKMultiPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				5300A07A1E70F5B400120DCB /* BXMultiPickerViewDefaultCell.m */,
-				5300A07B1E70F5B400120DCB /* BXMultiPickerViewDefaultCell.h */,
-				5300A07C1E70F5B400120DCB /* BUKMultiPickerView.m */,
-				5300A07D1E70F5B400120DCB /* BUKMultiPickerView.h */,
-				5300A07E1E70F5B400120DCB /* BUKMultiPickerTitleView.m */,
-				5300A07F1E70F5B400120DCB /* BUKMultiPickerTitleView.h */,
-			);
-			name = BUKMultiPickerView;
-			sourceTree = "<group>";
-		};
-		5300A0791E70F56500120DCB /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5300A0811E70F5B400120DCB /* BUKMultiPickerView.m in Sources */,
-				5300A0801E70F5B400120DCB /* BXMultiPickerViewDefaultCell.m in Sources */,
-				5300A0821E70F5B400120DCB /* BUKMultiPickerTitleView.m in Sources */,
 				5300A0571E70F34600120DCB /* ViewController.m in Sources */,
 				5300A0541E70F34600120DCB /* AppDelegate.m in Sources */,
 				5300A0511E70F34600120DCB /* main.m in Sources */,
