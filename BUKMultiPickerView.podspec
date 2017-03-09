@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BUKMultiPickerView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A simple multi-row picker"
   s.description  = "A simple customizable multi-row picker"
   s.homepage     = "https://github.com/iException/BUKMultiPickerView.git"
