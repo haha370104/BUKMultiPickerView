@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "Xiang Li" => "lixiang@baixing.com" }
   s.source       = { :git => "https://github.com/iException/BUKMultiPickerView.git", :tag => "#{s.version}" }
   s.source_files = "Classes", "Classes/**/*.{h,m}"
+  s.ios.deployment_target = '5.0'
   s.frameworks   = 'UIKit', 'Foundation'
   s.requires_arc = true
 

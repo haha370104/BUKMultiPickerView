@@ -7,7 +7,6 @@
 //
 
 #import "BXMultiPickerViewDefaultCell.h"
-#import "UIColor+BXTheme.h"
 #import <Masonry/Masonry.h>
 #import "NSObject+BXTypeCheck.h"
 
@@ -28,8 +27,8 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
 
     if (self) {
-        _normalStateBgColor = [UIColor bx_colorFromHexRGB:0xeff0e9];
-        _selectedStateBgColor = [UIColor bx_colorFromHexRGB:0xf6f6f6];
+        _normalStateBgColor = [self bx_colorFromHexRGB:0xeff0e9];
+        _selectedStateBgColor = [self bx_colorFromHexRGB:0xf6f6f6];
         _normalStateTextColor = [UIColor bx_blackColor];
         _selectedStateTextColor = [UIColor bx_radicalRedColor];
 
@@ -121,6 +120,21 @@
         self.backgroundColor = _normalStateBgColor;
         self.titleLabel.textColor = _normalStateTextColor;
     }
+}
+
+- (UIColor *)bx_colorFromHexRGB:(NSInteger)rgbValue
+{
+    return [self bx_colorFromHexRGB:rgbValue alpha:1.0];
+}
+
+- (UIColor *)bx_colorFromHexRGB:(NSInteger)rgbValue alpha:(CGFloat)alpha
+{
+    NSInteger mask = 0x000000FF;
+    CGFloat red = ((rgbValue >> 16) & mask) / 255.0;
+    CGFloat green = ((rgbValue >> 8) & mask) / 255.0;
+    CGFloat blue = (rgbValue & mask) / 255.0;
+
+    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 
 @end
