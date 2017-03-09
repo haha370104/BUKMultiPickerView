@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2C7B60F7F6D7704283EC873E34175FDEE1B25965",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C7B60F7F6D7704283EC873E34175FDEE1B25965" : 9223372036854775807,
+    "0D80F4016E2D91088AD2186C96036162ECE69D64" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "887E9CA6-794C-49FB-864A-01137FFDC413",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C7B60F7F6D7704283EC873E34175FDEE1B25965" : "BUKMultiPickerView\/",
+    "0D80F4016E2D91088AD2186C96036162ECE69D64" : "..\/..\/Coding\/niepan"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BUKMultiPickerViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BUKMultiPickerViewDemo\/BUKMultiPickerViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/flybrotherlixiang\/niepan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D80F4016E2D91088AD2186C96036162ECE69D64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iException\/BUKMultiPickerView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C7B60F7F6D7704283EC873E34175FDEE1B25965"
+    }
+  ]
+}
