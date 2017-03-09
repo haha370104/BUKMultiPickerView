@@ -28,8 +28,8 @@
     if (self) {
         _normalStateBgColor = [self bx_colorFromHexRGB:0xeff0e9];
         _selectedStateBgColor = [self bx_colorFromHexRGB:0xf6f6f6];
-        _normalStateTextColor = [UIColor bx_blackColor];
-        _selectedStateTextColor = [UIColor bx_radicalRedColor];
+        _normalStateTextColor = [self bx_colorFromHexRGB:0x333333];
+        _selectedStateTextColor = [self bx_colorFromHexRGB:0xff4466];
 
         [self addSubview:self.titleLabel];
         [self addSubview:self.separatorLine];
@@ -78,7 +78,7 @@
 {
     if (!_separatorLine) {
         _separatorLine = [[UIView alloc] init];
-        _separatorLine.backgroundColor = [UIColor bx_separatorGray];
+        _separatorLine.backgroundColor = [self bx_colorFromHexRGB:0xe6e6e6];
     }
     return _separatorLine;
 }
