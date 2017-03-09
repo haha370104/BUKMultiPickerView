@@ -61,7 +61,7 @@
 #pragma mark - public method -
 - (void)setTitleLabelText:(NSString *)titleLabelText
 {
-    self.titleLabel.text = [self bx_safeString:titleLabelText];
+    self.titleLabel.text = titleLabelText ? : @"";
 }
 
 #pragma mark - getters & setters -
